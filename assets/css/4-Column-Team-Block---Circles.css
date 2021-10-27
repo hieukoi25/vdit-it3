@@ -68,12 +68,6 @@
   }
 }
 
-@media (max-width: 767px) {
-  .scratch-game {
-    display: none;
-  }
-}
-
 @media (min-width: 991px) {
   .button-game {
     display: flex;
@@ -86,7 +80,7 @@
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 1023px) {
   .button-game {
     display: none;
   }
