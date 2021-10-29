@@ -92,7 +92,7 @@
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .scratch-game {
     display: none;
   }
@@ -100,5 +100,23 @@
 
 .team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .col-xxl-6 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-xxl-6 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
